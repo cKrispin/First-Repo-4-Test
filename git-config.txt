@@ -106,6 +106,7 @@ Some commands:
 
 ===============================================================================
 
+<<<<<<< HEAD
 Administrator@GHTS-Laptop MINGW32 ~/Desktop/Git-Repository (master)
 $ git init
 Reinitialized existing Git repository in C:/Users/Administrator/Desktop/Git-Repository/.git/
@@ -139,4 +140,11 @@ Pull the repository with all the changes: (git pull)
 Put a file on my local server and have it uploaded to github: (git add Road_map.pdf, git commit -m 'Added Road_Map.pdf'
 
 
+=======
+- Commiting to remote repository
+- Command 1: (git init, git add .)
 
+=========================== RANDOM COMMET FROM GITHUB =========================
+>>>>>>> 00cf271151199c245b9d0ab4d0e4595eef531fd0
+
+Hello from local server
