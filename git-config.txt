@@ -106,7 +106,37 @@ Some commands:
 
 ===============================================================================
 
-- Commiting to remote repository
-- Command 1: (git init, git add .)
-- 
+Administrator@GHTS-Laptop MINGW32 ~/Desktop/Git-Repository (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Administrator/Desktop/Git-Repository/.git/
+
+Administrator@GHTS-Laptop MINGW32 ~/Desktop/Git-Repository (master)
+$ git add .
+
+Administrator@GHTS-Laptop MINGW32 ~/Desktop/Git-Repository (master)
+$ git remote add origin https://github.com/cKrispin/Front-End.git
+
+Administrator@GHTS-Laptop MINGW32 ~/Desktop/Git-Repository (master)
+$ git push origin master
+Fatal: AggregateException encountered.
+Username for 'https://github.com': cKrispin
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 1.96 KiB | 0 bytes/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/cKrispin/Front-End.git
+ * [new branch]      master -> master
+
+Administrator@GHTS-Laptop MINGW32 ~/Desktop/Git-Repository (master)
+$
+
+========================================== Pulling Files from Remote Repository to local derver ===========
+To list all the remote repository: (git remote -v)
+Get data without the changes with my work on local repository (git fetch origin)
+Pull the repository with all the changes: (git pull)
+Put a file on my local server and have it uploaded to github: (git add Road_map.pdf, git commit -m 'Added Road_Map.pdf'
+
+
 
