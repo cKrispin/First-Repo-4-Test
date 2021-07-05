@@ -102,4 +102,11 @@ Some commands:
 
 - Staging the files (git add filename)
 - To see what has changed (git diff)
+- To see what has been staged and what has been commited: (git diff --cached)
+
+===============================================================================
+
+- Commiting to remote repository
+- Command 1: (git init, git add .)
+- 
 
