@@ -108,5 +108,6 @@ Some commands:
 
 - Commiting to remote repository
 - Command 1: (git init, git add .)
-- 
+
+=========================== RANDOM COMMET FROM GITHUB =========================
 
